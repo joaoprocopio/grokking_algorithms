@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grokking-algorithms"
+version = "0.0.1"
+description = ""
+authors = ["joaoprocopio <joaovitorcprocopio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
